@@ -14,7 +14,7 @@ In this project, I implemented google search auto complete based on N-Gram Model
 
 Here is how my auto-complete looks like.
 
-![](images/demo.png)
+![](images/9631F231-8DAE-4B9A-859A-EF1094E99B5A.png)
 
 ## Arguments
 
