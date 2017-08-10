@@ -1,0 +1,24 @@
+3-grams
+
+ceramics collectables collectibles (55)
+ceramics collectables fine (130)
+ceramics collected by (52)
+ceramics collectible pottery (50)
+ceramics collectibles cooking (45)
+4-grams
+
+serve as the incoming (92)
+serve as the incubator (99)
+serve as the independent (794)
+serve as the index (223)
+serve as the indication (72)
+serve as the indicator (120)
+
+This section provides a reasonable amount of detail on every user-facing aspect of the MapReduce framework. This should help users implement, configure and tune their jobs in a fine-grained manner. However, please note that the javadoc for each class/interface remains the most comprehensive documentation available; this is only meant to be a tutorial.
+
+Let us first take the Mapper and Reducer interfaces. Applications typically implement them to provide the map and reduce methods.
+
+We will then discuss other core interfaces including JobConf, JobClient, Partitioner, OutputCollector, Reporter, InputFormat, OutputFormat, OutputCommitter and others.
+
+Finally, we will wrap up by discussing some useful features of the framework such as the DistributedCache, IsolationRunner etc.
+
